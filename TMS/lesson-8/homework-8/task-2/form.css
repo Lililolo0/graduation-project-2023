@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  margin: 80px 100px;
+}
+
+input {
+  display: block;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  color: #424242;
+  margin-bottom: 0;
+}
+
+
+form {}
+
+.text {
+  width: 220px;
+  height: 50px;
+  margin-top: 32px;
+  margin-right: 16px;
+  padding-left: 24px;
+  border: 1px solid #BDBDBD;
+  border-radius: 83px;
+  display: inline;
+  color: #BDBDBD;
+}
+
+.number {
+  border: 1px solid #BDBDBD;
+  border-radius: 83px;
+  width: 220px;
+  height: 50px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  padding-left: 24px;
+  color: #BDBDBD;
+}
+
+.email {
+  display: block;
+  width: 456px;
+  height: 50px;
+  border: 1px solid #BDBDBD;
+  border-radius: 83px;
+  margin-top: 27px;
+  margin-bottom: 8px;
+  padding-left: 24px;
+  color: #BDBDBD;
+}
+
+.checkbox {
+  display: inline;
+  margin-top: 24px;
+}
+
+.radio {
+  display: inline-block;
+  margin-top: 19px;
+  margin-right: 16px;
+}
+
+label {
+  color: #424242
+}
