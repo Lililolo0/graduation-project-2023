@@ -8,4 +8,3 @@ const root = ReactDOM.createRoot(rootElement)
 const app = <App />
 
 root.render(app)
-
