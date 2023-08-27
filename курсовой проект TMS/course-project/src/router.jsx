@@ -8,6 +8,8 @@ import { SearchPage } from './pages/SearchPage/SearchPage'
 import { Account } from './pages/Account/Account'
 import { SignIn } from './pages/SignIn/SignIn'
 
+import { SignUp } from './pages/SignIn/SignUp'
+
 
 
 export const router = createBrowserRouter([
@@ -42,10 +44,10 @@ export const router = createBrowserRouter([
         path: '/sign-in',
         element: <SignIn />
       },
-      // {
-      //   path: '/sign-up',
-      //   element: <SignUp />
-      // },
+      {
+        path: '/sign-up',
+        element: <SignUp />
+      },
     ]
   }
 ])
