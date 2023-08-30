@@ -1,3 +1,28 @@
+.card-main {
+  width: 30%;
+  margin-bottom: 55px;
+}
+
+.card-img {
+  background-color: #F4EEFD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img__inner {
+  height: 188px;
+  width: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-title {
+  margin-top: 4px;
+  padding-bottom: 45px;
+}
+
 .cards-footer {
   display: flex;
+  margin-top: 40px;
 }

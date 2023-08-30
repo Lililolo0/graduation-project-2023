@@ -3,6 +3,7 @@ import { booksEndpoint, newBooksEndpoint } from '../api'
 
 export const requestBooks = async () => {
   const {data} = await client.get(booksEndpoint, {
+
   })
 
   return data.books

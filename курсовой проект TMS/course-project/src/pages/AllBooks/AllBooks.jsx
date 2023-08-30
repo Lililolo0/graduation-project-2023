@@ -8,8 +8,8 @@ import { useEffect, useState } from 'react'
 
 export function AllBooks() {
   const dispatch = useDispatch()
-  const { data, loading, error} = useSelector((state) => state.newBooks)
-console.log(data)
+  const { data, loading, error } = useSelector((state) => state.newBooks)
+  console.log(data)
 
   useEffect(() => {
     dispatch(fetchNewBooks())
@@ -24,11 +24,14 @@ console.log(data)
 
   return (
     <div className='all-books'>
-      <div className='container'>
+      <div className='container' style={{ width: '1120px' }}>
         <div className='all-books__inner'>
-        {data.map((post) => (
-          <CardMain key={post.isbn13} data={post} />
-        ))}
+          <h1 className='all-books__header'>New Releases Books</h1>
+          <div className='all-books__cards'>
+            {data.map((post) => (
+              <CardMain key={post.isbn13} data={post} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
