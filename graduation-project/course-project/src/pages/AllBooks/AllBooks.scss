@@ -1,0 +1,13 @@
+.all-books {
+margin-top: 76px;
+}
+
+.all-books__header {
+  font-style: inherit;
+}
+
+.all-books__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
