@@ -1,9 +1,12 @@
 import basket from '../../images/basket.svg'
+import { NavLink } from 'react-router-dom'
 
 export function Basket() {
   return (
     <div>
-      <img src={ basket } alt="basket" />
+      <NavLink to='/cart'>
+        <img src={basket} alt="basket" />
+      </NavLink>
     </div>
   )
 }

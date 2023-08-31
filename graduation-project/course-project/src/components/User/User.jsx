@@ -1,10 +1,13 @@
 import avatar from '../../images/avatar.svg'
+import { NavLink } from 'react-router-dom'
 
 
-export function User(){
-  return(
+export function User() {
+  return (
     <div>
-      <img src={ avatar } alt="user" />
+      <NavLink to='/sign-in'>
+        <img src={avatar} alt="user" />
+      </NavLink>
     </div>
   )
 }
