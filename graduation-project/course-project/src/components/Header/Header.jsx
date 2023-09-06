@@ -1,6 +1,6 @@
 import { Label } from '../Label/Label'
 import { Search } from '../Search/Search'
-import { Favorites } from '../Favorites/Favorites'
+import { FavoritesLink } from '../FavoritesLink/FavoritesLink'
 import { Basket } from '../Basket/Basket'
 import { User } from '../User/User'
 import './Header.scss'
@@ -14,7 +14,7 @@ export function Header() {
         <Label />
         <Search />
         <div className='header__links'>
-          <Favorites />
+          <FavoritesLink />
           <Basket />
           <User />
         </div>

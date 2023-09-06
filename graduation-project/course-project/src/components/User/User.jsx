@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 export function User() {
   return (
     <div>
-      <NavLink to='/sign-in'>
+      <NavLink to='/account'>
         <img src={avatar} alt="user" />
       </NavLink>
     </div>

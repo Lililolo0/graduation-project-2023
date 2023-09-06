@@ -18,7 +18,7 @@ export function SignIn() {
                 <input type='email' className='form-control' placeholder='Your password' id='input-password' />
               </div>
               <p>Forgot password?</p>
-              <button className="btn" type="button" id='button-addon2' style={{ width: '100%' }}>Sign in</button>
+              <button className="btn" type="button" id='button-addon2' style={{ width: '480px' }}>Sign in</button>
             </form>
           </div>
 

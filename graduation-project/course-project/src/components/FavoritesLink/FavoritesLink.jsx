@@ -1,7 +1,7 @@
 import like from '../../images/like.svg'
 import { NavLink } from 'react-router-dom'
 
-export function Favorites() {
+export function FavoritesLink() {
   return (
     <div>
       <NavLink to='/favorites'>

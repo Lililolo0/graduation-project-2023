@@ -1,0 +1,32 @@
+.sign-in-or-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.sign-in-or-up__inner {
+  width: 544px;
+  border: 1px solid #E7E7E7;
+}
+
+.switcher {
+  display: inline;
+}
+
+
+.switcher__link {
+  padding: 0px;
+}
+
+
+
+button {
+  width: 50%;
+  background-color: #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}

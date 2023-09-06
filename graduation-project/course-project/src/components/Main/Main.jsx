@@ -21,7 +21,7 @@ export function Main() {
 
 
       <div className='footer'>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   )

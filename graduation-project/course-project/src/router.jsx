@@ -6,9 +6,9 @@ import { Cart } from './pages/Cart/Cart'
 import { Favorites } from './pages/Favorites/Favorites'
 import { SearchPage } from './pages/SearchPage/SearchPage'
 import { Account } from './pages/Account/Account'
-import { SignIn } from './pages/SignIn/SignIn'
-
-import { SignUp } from './pages/SignIn/SignUp'
+import { SignInOrUp } from './pages/SignInOrUp/SignInOrUp'
+import { SignIn } from './components/SignIn/SignIn'
+import { SignUp } from './components/SignUp/SignUp'
 
 
 
@@ -21,7 +21,7 @@ export const router = createBrowserRouter([
         element: <AllBooks />
       },
       {
-        path: '/book',
+        path: '/book/:isbn13',
         element: <Book/>
       },
       {
@@ -41,13 +41,27 @@ export const router = createBrowserRouter([
         element: <Account />
       },
       {
-        path: '/sign-in',
-        element: <SignIn />
-      },
-      {
-        path: '/sign-up',
-        element: <SignUp />
-      },
+        path: '/sign-in-or-up',
+        element: <SignInOrUp />,
+          children: [
+            {
+              path: '/sign-in-or-up/sign-in',
+              element: <SignIn />
+            },
+            {
+              path: '/sign-in-or-up/sign-up',
+              element: <SignUp />
+            }
+          ]
+      }
+      // {
+      //   path: '/sign-in',
+      //   element: <SignIn />
+      // },
+      // {
+      //   path: '/sign-up',
+      //   element: <SignUp />
+      // },
     ]
   }
 ])

@@ -1,0 +1,17 @@
+.container {
+  width: 1120px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #E7E7E7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+p {
+  text-transform: lowercase;
+  color: #E7E7E7;
+}

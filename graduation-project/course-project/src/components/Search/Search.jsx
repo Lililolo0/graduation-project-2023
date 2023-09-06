@@ -52,7 +52,7 @@ export function Search() {
         <button
           className="btn btn-outline-secondary"
           type="button"
-          style={{ borderRadius: '0px', backgroundColor: 'white', borderLeft: 'none', borderColor: '#dee2e6', height: '38px' }}>
+          style={{ borderRadius: '0px', backgroundColor: 'white', borderLeft: 'none', borderColor: '#dee2e6', height: '37px', width: '45px' }}>
           <img src={search} alt="search" />
         </button>
       </form>

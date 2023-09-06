@@ -1,5 +1,4 @@
 import { Main } from './components/Main/Main'
-
 import { RouterProvider } from 'react-router-dom'
 import { router } from './router'
 import { Provider } from 'react-redux'
